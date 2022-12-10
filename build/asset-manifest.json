@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/fozzy/static/css/main.920f000b.css",
+    "main.js": "/fozzy/static/js/main.b50d10c3.js",
+    "static/media/self.png": "/fozzy/static/media/self.14218dcf5971e04a0602.png",
+    "index.html": "/fozzy/index.html",
+    "main.920f000b.css.map": "/fozzy/static/css/main.920f000b.css.map",
+    "main.b50d10c3.js.map": "/fozzy/static/js/main.b50d10c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.920f000b.css",
+    "static/js/main.b50d10c3.js"
+  ]
+}
