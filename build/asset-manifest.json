@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fozzy/static/css/main.920f000b.css",
-    "main.js": "/fozzy/static/js/main.b50d10c3.js",
+    "main.css": "/fozzy/static/css/main.2bf6084e.css",
+    "main.js": "/fozzy/static/js/main.2ff1c105.js",
     "static/media/self.png": "/fozzy/static/media/self.14218dcf5971e04a0602.png",
     "index.html": "/fozzy/index.html",
-    "main.920f000b.css.map": "/fozzy/static/css/main.920f000b.css.map",
-    "main.b50d10c3.js.map": "/fozzy/static/js/main.b50d10c3.js.map"
+    "main.2bf6084e.css.map": "/fozzy/static/css/main.2bf6084e.css.map",
+    "main.2ff1c105.js.map": "/fozzy/static/js/main.2ff1c105.js.map"
   },
   "entrypoints": [
-    "static/css/main.920f000b.css",
-    "static/js/main.b50d10c3.js"
+    "static/css/main.2bf6084e.css",
+    "static/js/main.2ff1c105.js"
   ]
 }

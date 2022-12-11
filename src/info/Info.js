@@ -26,5 +26,5 @@ export const info = {
             text: "I live in the coldest place on Earth (Yakutsk city)"
         }
     ],
-    bio: "Hello! I'm Fozzy. And I'm a dog ) I live with my Master - Tanya in the coldest place on the Earth. I enjoy long walks, I believe that I will soon move from this place!",
+    bio: "Hello! I'm Fozzy. And I'm a dog ) I live with my Master - Tanya. I enjoy long walks!",
 }

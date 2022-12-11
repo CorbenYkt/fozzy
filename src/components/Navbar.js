@@ -23,7 +23,7 @@ export default function Navbar() {
 
     return (
         <Box component={'nav'} width={'100%'}>
-            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
+            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'} pt={'10px'}
                 gap={{ xs: '2rem', md: '8rem' }}
                 fontSize={'1rem'}>
                 {links.map((link, index) => (

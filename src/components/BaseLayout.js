@@ -9,7 +9,7 @@ import { Box, Grid } from "@mui/material";
 export default function BaseLayout() {
    return (
       <Box className={Style.light}>
-         <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
+         <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh-175px'}
             justifyContent={'space-between'}>
             <Grid item>
                <Navbar />
