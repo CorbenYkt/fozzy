@@ -5,6 +5,7 @@ import Home from './fozzy/Home';
 import Myfamily from "./myfamily/About";
 import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
+import PageNotFound from './pagenotfound/PageNotFound'
 
 export default function BaseLayout() {
    return (
@@ -18,6 +19,7 @@ export default function BaseLayout() {
                <Routes>
                   <Route index path={'fozzy'} element={<Home />} />
                   <Route exact path={'myfamily'} element={<Myfamily />} />
+                  <Route path="*" element={<PageNotFound />} />
                </Routes>
             </Grid>
             <Grid item>
