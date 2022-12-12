@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from "react";
 import Lightroom from 'react-lightbox-gallery'
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 
 var images = [
     {
@@ -42,13 +42,16 @@ var settings = {
     mode: 'light'
 }
 
-
 export default function About() {
     return (
         <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
-            justifyContent={'center'} minHeight={'100vh-175px'} >
-            <br></br>
-            <Lightroom images={images} settings={settings} />
+            justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
+            <Grid container justifyContent="center">
+                <Grid item xs={8}>
+                    <br></br>
+                    <Lightroom images={images} settings={settings} />
+                </Grid>
+            </Grid>
         </Box>
     );
 }

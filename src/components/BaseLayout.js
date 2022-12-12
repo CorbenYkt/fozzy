@@ -18,7 +18,7 @@ export default function BaseLayout() {
             <Grid item flexGrow={1}>
                <Routes>
                   <Route index path={'fozzy'} element={<Home />} />
-                  <Route exact path={'myfamily'} element={<Myfamily />} />
+                  <Route exact path={'fozzy/myfamily'} element={<Myfamily />} />
                   <Route path="*" element={<PageNotFound />} />
                </Routes>
             </Grid>

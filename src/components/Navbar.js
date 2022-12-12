@@ -12,7 +12,7 @@ const links = [
     },
     {
         name: 'My Family',
-        to: '/myfamily',
+        to: '/fozzy/myfamily',
         active: 'myfamily'
     }
 ]
