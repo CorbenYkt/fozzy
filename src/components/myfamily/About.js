@@ -1,62 +1,55 @@
 import React, { useState, useCallback } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
+import Lightroom from 'react-lightbox-gallery'
+import { Box } from "@mui/material";
 
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
+var images = [
+    {
+        src: require('./photo/4.jpg'),
+        sub: 'This is my Family, - Tanya, Gosha (Bro), and Dima'
+    },
+    {
+        src: require('./photo/3.jpg'),
+        sub: 'And also Mom and Dad'
+    },
+    {
+        src: require('./photo/2.jpg'),
+        sub: 'Gosha, is in 6th grade of school and he, like me, likes nature'
+    },
+    {
+        src: require('./photo/5.jpg'),
+        sub: 'Me and my Jedy\'s cloak',
+    },
+    {
+        src: require('./photo/6.jpg'),
+        sub: 'Me and my Bro Gosha'
+    },
+    {
+        src: require('./photo/7.jpg'),
+        sub: 'Walking around'
+    },
+    {
+        src: require('./photo/8.jpg'),
+        sub: 'I like to take a nap'
+    },
+
+]
+var settings = {
+    columnCount: {
+        default: 3,
+        mobile: 3,
+        tab: 4
+    },
+    mode: 'light'
+}
+
 
 export default function About() {
     return (
-        <Grid container
-            spacing={3}>
-            <Grid item xs>
-
-            </Grid>
-            <Grid item xs={8}>
-                <Item><Carousel dynamicHeight={true} showThumbs={false}  infiniteLoop={true} autoPlay={true} stopOnHover={true}>
-                    <div>
-                        <img src={require('./photo/4.jpg')} />
-                        <p className="legend">This is my Family, - Tanya, Gosha (Bro), and Dima</p>
-                    </div>
-                    <div>
-                        <img src={require('./photo/2.jpg')} />
-                        <p className="legend">Gosha, is in 6th grade of school and he, like me, likes nature</p>
-                    </div>
-                    <div>
-                        <img src={require('./photo/3.jpg')} />
-                        <p className="legend">And also Mom and Dad</p>
-                    </div>
-                    <div>
-                        <img src={require('./photo/5.jpg')} />
-                        <p className="legend">Me and my Jedy's cloak</p>
-                    </div>
-                    <div>
-                        <img src={require('./photo/6.jpg')} />
-                        <p className="legend">Me and my Bro Gosha</p>
-                    </div>
-                    <div>
-                        <img src={require('./photo/4.jpg')} />
-                        <p className="legend">Walking around</p>
-                    </div>
-
-                </Carousel>
-                </Item>
-            </Grid>
-            <Grid item xs>
-
-            </Grid>
-        </Grid>
-
-
+        <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
+            justifyContent={'center'} minHeight={'100vh-175px'} >
+            <br></br>
+            <Lightroom images={images} settings={settings} />
+        </Box>
     );
 }
 
