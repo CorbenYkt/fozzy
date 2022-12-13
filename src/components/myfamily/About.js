@@ -31,6 +31,19 @@ var images = [
         src: require('./photo/8.jpg'),
         sub: 'I like to take a nap'
     },
+    {
+        src: require('./photo/9.jpg'),
+        sub: 'I like to travel'
+    },
+    {
+        src: require('./photo/10.jpg'),
+        sub: 'My usual days in winter'
+    },
+    {
+        src: require('./photo/11.jpg'),
+        sub: 'Again put a big luminous tree'
+    }
+
 
 ]
 var settings = {
