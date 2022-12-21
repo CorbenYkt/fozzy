@@ -9,7 +9,7 @@ import PageNotFound from './pagenotfound/PageNotFound'
 
 export default function BaseLayout() {
    return (
-      <Box className={Style.light}>
+      <Box>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh-175px'}
             justifyContent={'space-between'}>
             <Grid item>

@@ -7,7 +7,6 @@ import { Box } from "@mui/material";
 import { info } from "../../info/Info";
 
 export default function Home() {
-
    return (
       <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
          justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
