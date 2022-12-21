@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fozzy/static/css/main.8ae0d347.css",
-    "main.js": "/fozzy/static/js/main.0ef26b3e.js",
+    "main.js": "/fozzy/static/js/main.fc2ddac9.js",
     "static/media/self.png": "/fozzy/static/media/self.14218dcf5971e04a0602.png",
     "static/media/2.jpg": "/fozzy/static/media/2.cd71ba6e47bb0fb949e5.jpg",
     "static/media/4.jpg": "/fozzy/static/media/4.58d8f1213a88817846f9.jpg",
@@ -16,10 +16,10 @@
     "static/media/pagenotfound.png": "/fozzy/static/media/pagenotfound.083adb40347be7bcc605.png",
     "index.html": "/fozzy/index.html",
     "main.8ae0d347.css.map": "/fozzy/static/css/main.8ae0d347.css.map",
-    "main.0ef26b3e.js.map": "/fozzy/static/js/main.0ef26b3e.js.map"
+    "main.fc2ddac9.js.map": "/fozzy/static/js/main.fc2ddac9.js.map"
   },
   "entrypoints": [
     "static/css/main.8ae0d347.css",
-    "static/js/main.0ef26b3e.js"
+    "static/js/main.fc2ddac9.js"
   ]
 }
