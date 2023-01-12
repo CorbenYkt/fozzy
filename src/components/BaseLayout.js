@@ -26,6 +26,7 @@ export default function BaseLayout() {
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
                   <p>Based on template of <a href={'https://github.com/paytonjewell/ReactPortfolioTemplate'}>Payton Pierce</a></p>
+                  <p>By <a href={'https://github.com/corbenykt'}>Dmitrii Artemev</a></p>
                   <p>&copy; 2022</p>
                </Box>
             </Grid>
