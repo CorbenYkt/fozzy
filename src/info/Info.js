@@ -24,6 +24,10 @@ export const info = {
         {
             emoji: "🌏",
             text: "I live in the coldest place on Earth (Yakutsk city)"
+        },
+        {
+            // emoji: "👻",
+            // text: "<a href='https://corbenykt.github.io/'>Visit my family's page</a>"
         }
     ],
     bio: "Yes i'm a dog ) I live with my Master - Tanya. I enjoy long walks!",

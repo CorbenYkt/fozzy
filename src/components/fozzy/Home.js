@@ -22,7 +22,12 @@ export default function Home() {
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
                ))}
+               <h2>
+                  <a href='https://corbenykt.github.io/'>And please visit my family's page</a>
+               </h2>
             </Box>
+
+
          </Box>
       </Box>
    )
