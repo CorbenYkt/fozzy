@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fozzy/static/css/main.8ae0d347.css",
-    "main.js": "/fozzy/static/js/main.43140ac6.js",
+    "main.css": "/fozzy/static/css/main.45792474.css",
+    "main.js": "/fozzy/static/js/main.7c4f48e2.js",
     "static/media/self.png": "/fozzy/static/media/self.14218dcf5971e04a0602.png",
     "static/media/2.jpg": "/fozzy/static/media/2.cd71ba6e47bb0fb949e5.jpg",
     "static/media/4.jpg": "/fozzy/static/media/4.58d8f1213a88817846f9.jpg",
@@ -15,11 +15,11 @@
     "static/media/5.jpg": "/fozzy/static/media/5.98033e21234cc0305fac.jpg",
     "static/media/pagenotfound.png": "/fozzy/static/media/pagenotfound.083adb40347be7bcc605.png",
     "index.html": "/fozzy/index.html",
-    "main.8ae0d347.css.map": "/fozzy/static/css/main.8ae0d347.css.map",
-    "main.43140ac6.js.map": "/fozzy/static/js/main.43140ac6.js.map"
+    "main.45792474.css.map": "/fozzy/static/css/main.45792474.css.map",
+    "main.7c4f48e2.js.map": "/fozzy/static/js/main.7c4f48e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ae0d347.css",
-    "static/js/main.43140ac6.js"
+    "static/css/main.45792474.css",
+    "static/js/main.7c4f48e2.js"
   ]
 }

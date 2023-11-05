@@ -42,10 +42,25 @@ var images = [
     {
         src: require('./photo/11.jpg'),
         sub: 'Again put a big luminous tree'
+    },
+    {
+        src: require('./photo/12.jpg'),
+        sub: 'Road for a walk'
+    },
+    {
+        src: require('./photo/13.jpg'),
+        sub: 'After visiting Ayusai waterfalls'
+    },
+    {
+        src: require('./photo/14.jpg'),
+        sub: 'My brother and bricks'
+    },
+    {
+        src: require('./photo/15.jpg'),
+        sub: 'Mountains... mountains'
     }
-
-
 ]
+
 var settings = {
     columnCount: {
         default: 3,
@@ -56,13 +71,15 @@ var settings = {
 }
 
 export default function About() {
+    const newimages = images.reverse()
+
     return (
         <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
             justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
             <Grid container justifyContent="center">
                 <Grid item xs={8}>
                     <br></br>
-                    <Lightroom images={images} settings={settings} />
+                    <Lightroom images={newimages} settings={settings} />
                 </Grid>
             </Grid>
         </Box>

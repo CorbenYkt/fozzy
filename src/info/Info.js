@@ -2,7 +2,7 @@ import self from "../img/self.png"
 export let colors = ["rgba(166,104,255,1) 36%", "rgba(52,116,193,1) 63%"];
 export const info = {
     firstName: "Fozzy",
-    lastName: "Dog",
+    lastName: "Artemev",
     initials: "FZz",
     about: "a West Highland White Terrier",
     selfPortrait: self,
@@ -30,5 +30,5 @@ export const info = {
             // text: "<a href='https://corbenykt.github.io/'>Visit my family's page</a>"
         }
     ],
-    bio: "Yes i'm a dog ) I live with my Master - Tanya. I enjoy long walks!",
+    bio: "Yes i'm a dog ) I live with my family - Tanya, Dmitrii and Gosha. I enjoy long walks!",
 }
