@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/fozzy/static/css/main.45792474.css",
-    "main.js": "/fozzy/static/js/main.b09cec08.js",
+    "main.js": "/fozzy/static/js/main.bd184145.js",
+    "static/media/self.png": "/fozzy/static/media/self.ad96a18413b3921f3f50.png",
     "static/media/13.jpg": "/fozzy/static/media/13.b6f90b15c2fd88b255c1.jpg",
+    "static/media/17.jpg": "/fozzy/static/media/17.6bed5f1e99f888d1710e.jpg",
     "static/media/14.jpg": "/fozzy/static/media/14.cbcd3130ddd90478f3e6.jpg",
-    "static/media/self.png": "/fozzy/static/media/self.14218dcf5971e04a0602.png",
     "static/media/12.jpg": "/fozzy/static/media/12.430419524308683f87bc.jpg",
     "static/media/2.jpg": "/fozzy/static/media/2.cd71ba6e47bb0fb949e5.jpg",
     "static/media/4.jpg": "/fozzy/static/media/4.58d8f1213a88817846f9.jpg",
@@ -17,13 +18,14 @@
     "static/media/6.jpg": "/fozzy/static/media/6.c8a49d97e599e306b16b.jpg",
     "static/media/9.jpg": "/fozzy/static/media/9.984cde83e8bf59b8554e.jpg",
     "static/media/5.jpg": "/fozzy/static/media/5.98033e21234cc0305fac.jpg",
+    "static/media/16.jpg": "/fozzy/static/media/16.15cdab689315e2816ca8.jpg",
     "static/media/pagenotfound.png": "/fozzy/static/media/pagenotfound.083adb40347be7bcc605.png",
     "index.html": "/fozzy/index.html",
     "main.45792474.css.map": "/fozzy/static/css/main.45792474.css.map",
-    "main.b09cec08.js.map": "/fozzy/static/js/main.b09cec08.js.map"
+    "main.bd184145.js.map": "/fozzy/static/js/main.bd184145.js.map"
   },
   "entrypoints": [
     "static/css/main.45792474.css",
-    "static/js/main.b09cec08.js"
+    "static/js/main.bd184145.js"
   ]
 }
