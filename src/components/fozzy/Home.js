@@ -21,6 +21,7 @@ export default function Home() {
             <p>I'm {info.about}.</p>
             <p>{info.bio}</p><br></br>
             <p>Sept. 2023. I arrived in the city of Almaty, this is in Kazakhstan. There is delicious meat and beautiful mountains.</p>
+            <p>Dec. 2023. I arrived in the city of Seoul in South Korea. I miss my family too much.</p>
             <br></br>
             <a href='https://corbenykt.github.io/'>Btw, please visit my family's page.</a>
             <Box component={'ul'} p={'0.8rem'}>
