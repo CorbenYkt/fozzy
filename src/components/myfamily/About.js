@@ -6,6 +6,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 var images = [
     {
+        sizes: '320px',
         original: require('./photo/4.jpg'),
         thumbnail: require('./photo/4l.jpg'),
         description: 'This is my Family, - Tanya, Gosha (Bro), and Dima'
@@ -101,10 +102,9 @@ export default function About() {
     const newimages = images.reverse()
     return (
         <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
-            justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
+            justifyContent={'center'}>
             <Grid container justifyContent="center">
-                <Grid item xs={8}>
-                    <br></br>
+                <Grid item xs={5}>
                     <ImageGallery items={images}
                         showNav={false}
                         useBrowserFullscreen={false}
@@ -113,7 +113,6 @@ export default function About() {
                         disableSwipe={false}
                         showThumbnails={false}
                         lazyLoad={true}></ImageGallery>
-
                 </Grid>
             </Grid>
         </Box>

@@ -10,12 +10,11 @@ import PageNotFound from './pagenotfound/PageNotFound'
 export default function BaseLayout() {
    return (
       <Box>
-         <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh-175px'}
-            justifyContent={'space-between'}>
+         <Grid flexDirection={'column'}>
             <Grid item>
                <Navbar />
             </Grid>
-            <Grid item flexGrow={1}>
+            <Grid item>
                <Routes>
                   <Route index path={'fozzy'} element={<Home />} />
                   <Route exact path={'fozzy/myfamily'} element={<Myfamily />} />
@@ -24,10 +23,12 @@ export default function BaseLayout() {
             </Grid>
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                  py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
+                  py={'0rem'}><br></br>
                   <p>Based on template of <a href={'https://github.com/paytonjewell/ReactPortfolioTemplate'}>Payton Pierce</a></p>
-                  <p>By <a href={'https://github.com/corbenykt'}>Dmitrii Artemev</a></p>
-                  <p>&copy; 2022</p>
+                  <a href={'https://github.com/corbenykt'} style={{ fontWeight: 'normal', textDecorationLine: '' }} >
+                     By Dmitrii Artemev
+                  </a>
+                  <p style={{ fontSize: '0.75rem' }}>&copy; {(new Date().getFullYear())}</p>
                </Box>
             </Grid>
          </Grid>
