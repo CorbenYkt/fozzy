@@ -1,12 +1,10 @@
 import React, { useState, useCallback } from "react";
-import Lightroom from 'react-lightbox-gallery'
 import { Box, Grid } from "@mui/material";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-var images = [
+var images = [    
     {
-        sizes: '320px',
         original: require('./photo/4.jpg'),
         thumbnail: require('./photo/4l.jpg'),
         description: 'This is my Family, - Tanya, Gosha (Bro), and Dima'
@@ -71,7 +69,6 @@ var images = [
         thumbnail: require('./photo/7l.jpg'),
         description: 'Walking around'
     },
-
     {
         original: require('./photo/5.jpg'),
         thumbnail: require('./photo/5l.jpg'),
@@ -85,8 +82,8 @@ var images = [
     {
         original: require('./photo/2.jpg'),
         thumbnail: require('./photo/2l.jpg'),
-        description: 'Gosha, is in 6th grade of school and he, like me, likes nature'
-    }
+        description: 'Gosha, is in 7th grade of school and he, like me, likes nature'
+    },
 ]
 
 var settings = {
@@ -99,17 +96,18 @@ var settings = {
 }
 
 export default function About() {
-    const newimages = images.reverse()
+    //const newimages = images.reverse()
     return (
         <Box component={'main'} display={'flex'} flexDirection={{ xs: 'column', md: 'row' }} alignItems={'center'}
             justifyContent={'center'}>
             <Grid container justifyContent="center">
-                <Grid item xs={5}>
+                <Grid item xs={6}>
                     <ImageGallery items={images}
                         showNav={false}
                         useBrowserFullscreen={false}
                         showPlayButton={true}
                         showIndex={true}
+                        
                         disableSwipe={false}
                         showThumbnails={false}
                         lazyLoad={true}></ImageGallery>
