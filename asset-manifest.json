@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fozzy/static/css/main.45792474.css",
-    "main.js": "/fozzy/static/js/main.fa2d8a47.js",
+    "main.css": "/fozzy/static/css/main.3e166f9e.css",
+    "main.js": "/fozzy/static/js/main.07575b24.js",
     "static/media/self.png": "/fozzy/static/media/self.ad96a18413b3921f3f50.png",
     "static/media/13.jpg": "/fozzy/static/media/13.b6f90b15c2fd88b255c1.jpg",
     "static/media/17.jpg": "/fozzy/static/media/17.6bed5f1e99f888d1710e.jpg",
@@ -18,14 +18,30 @@
     "static/media/6.jpg": "/fozzy/static/media/6.c8a49d97e599e306b16b.jpg",
     "static/media/9.jpg": "/fozzy/static/media/9.984cde83e8bf59b8554e.jpg",
     "static/media/5.jpg": "/fozzy/static/media/5.98033e21234cc0305fac.jpg",
+    "static/media/13l.jpg": "/fozzy/static/media/13l.8e47f41769db60c977bb.jpg",
     "static/media/16.jpg": "/fozzy/static/media/16.15cdab689315e2816ca8.jpg",
+    "static/media/17l.jpg": "/fozzy/static/media/17l.c11d3a437e9d37d67d7b.jpg",
+    "static/media/14l.jpg": "/fozzy/static/media/14l.cf9dcf92a1528a4cd785.jpg",
+    "static/media/11l.jpg": "/fozzy/static/media/11l.edf1c52d23f426a58066.jpg",
+    "static/media/12l.jpg": "/fozzy/static/media/12l.75faf3502637eb05686c.jpg",
+    "static/media/7l.jpg": "/fozzy/static/media/7l.91e3c344f1d10b121d1e.jpg",
+    "static/media/6l.jpg": "/fozzy/static/media/6l.8016c7a101245fbbb5d0.jpg",
+    "static/media/10l.jpg": "/fozzy/static/media/10l.8c2d87e49975e6f4e299.jpg",
+    "static/media/8l.jpg": "/fozzy/static/media/8l.a027f16b8edcf9251bf4.jpg",
+    "static/media/4l.jpg": "/fozzy/static/media/4l.dd19615c231718e0c94c.jpg",
+    "static/media/5l.jpg": "/fozzy/static/media/5l.c7bc5f150cf6883fc4ec.jpg",
+    "static/media/2l.jpg": "/fozzy/static/media/2l.12f85e1d35ed258ce051.jpg",
+    "static/media/15l.jpg": "/fozzy/static/media/15l.025c3ceed9e843fbb146.jpg",
+    "static/media/9l.jpg": "/fozzy/static/media/9l.516509abc5286078d3a9.jpg",
+    "static/media/3l.jpg": "/fozzy/static/media/3l.f9361840c38a1107bc8a.jpg",
+    "static/media/16l.jpg": "/fozzy/static/media/16l.25c8a092442d09379f06.jpg",
     "static/media/pagenotfound.png": "/fozzy/static/media/pagenotfound.083adb40347be7bcc605.png",
     "index.html": "/fozzy/index.html",
-    "main.45792474.css.map": "/fozzy/static/css/main.45792474.css.map",
-    "main.fa2d8a47.js.map": "/fozzy/static/js/main.fa2d8a47.js.map"
+    "main.3e166f9e.css.map": "/fozzy/static/css/main.3e166f9e.css.map",
+    "main.07575b24.js.map": "/fozzy/static/js/main.07575b24.js.map"
   },
   "entrypoints": [
-    "static/css/main.45792474.css",
-    "static/js/main.fa2d8a47.js"
+    "static/css/main.3e166f9e.css",
+    "static/js/main.07575b24.js"
   ]
 }
