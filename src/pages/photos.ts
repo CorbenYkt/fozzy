@@ -62,9 +62,5 @@ export const photos = [
     {
         src: './src/photo/3.jpg',
         description: 'And also Mom and Dad'
-    },
-    {
-        src: './src/photo/2.jpg',
-        description: 'Gosha, is in 7th grade of school and he, like me, likes nature'
     }
 ]

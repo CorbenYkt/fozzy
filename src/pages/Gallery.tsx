@@ -25,9 +25,6 @@ function Gallery() {
                     showToggle: true,
                     descriptionTextAlign: 'end',
                 }}
-                // open={open}
-                // close={() => setOpen(false)}
-
                 index={index}
                 open={index >= 0}
                 close={() => setIndex(-1)}
