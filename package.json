@@ -1,7 +1,6 @@
 {
   "name": "fozzy",
   "private": true,
-  "homepage": "https://corbenykt.github.io/fozzy/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
