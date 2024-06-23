@@ -1,3 +1,4 @@
+
 export const photos = [
     {
         src: './src/photo/4.jpg',
