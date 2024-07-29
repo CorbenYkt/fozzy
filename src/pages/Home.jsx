@@ -35,8 +35,10 @@ function Home() {
                                 <p className="text-m text-gray-500">Sept. 2023. I arrived in the city of Almaty, this is in Kazakhstan. There is delicious meat and beautiful mountains.</p>
                                 <p className="text-m text-gray-500">Dec. 2023. I arrived in the city of Seoul in South Korea. I miss my family too much.</p>
                                 <p className="text-m text-gray-500">June. 2024. When will they put me on a plane and fly to my family?</p>
+                                <p className="text-m text-gray-500">5th of July. 2024. I'm in Auckland Quarantine Center</p>
+                                <p className="text-m text-gray-500">15th of July. 2024. Hurray! They collected me from Auckland</p>
                                 <br></br>
-                                <p className="text-m text-gray-500">Btw, please visit my <a className="text-m text-gray-500" href='https://corbenykt.github.io/'><b>family's page.</b></a></p>
+                                <p className="text-m text-gray-500">Btw, please visit my <a className="text-m text-gray-500" href='https://corbenykt.github.io/'><b>Father's page.</b></a> He is a Frontend developer and needs some job.</p>
                                 <Box component={'ul'} p={'0.8rem'}>
                                     {info.miniBio.map((bio, index) => (
                                         <p className="text-m text-gray-500">{bio.emoji}&nbsp;{bio.text}</p>

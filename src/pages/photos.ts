@@ -1,6 +1,14 @@
 
 export const photos = [
     {
+        src: './src/photo/20.jpg',
+        description: 'Hurray! We are reunited!'
+    },
+    {
+        src: './src/photo/19.jpg',
+        description: 'I\'m in Auckland Quarantine Center. In ten days I will be with my family!'
+    },
+    {
         src: './src/photo/4.jpg',
         description: 'This is my Family, - Tanya, Gosha (Bro), and Dima'
     },
