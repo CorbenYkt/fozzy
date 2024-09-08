@@ -6,3 +6,7 @@ I decided to make this site in reason of moving to New Zealand. When I was looki
 Inside is a short description of the dog, a history by dates about Fozzy's trip to New Zealand from Yakutia and awesome photo gallery.
 
 <a href='https://corbenykt.github.io/fozzy/'>Go to Fozzy's page</a>
+
+Used stack in this project:
+
+<img src='https://img.shields.io/badge/react-black?logo=react' /><img src='https://img.shields.io/badge/javascript-black?logo=javascript' /><img src='https://img.shields.io/badge/TailwindCSS-black?logo=tailwindcss' />
