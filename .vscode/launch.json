@@ -1,0 +1,14 @@
+{
+    "configurations": [
+      
+
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Launch Chrome against localhost",
+        "url": "http://localhost:5173/fozzy/",
+        "webRoot": "${workspaceFolder}/src",
+        "preLaunchTask": "npm: dev"
+      }
+    ]
+  }

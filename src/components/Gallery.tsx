@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
-import { photos } from './photos';
+import { photos } from '../pages/photos';
 import 'yet-another-react-lightbox/styles.css';
 import {
     Captions, Fullscreen, Thumbnails, Zoom,
 } from 'yet-another-react-lightbox/plugins';
 import 'yet-another-react-lightbox/plugins/captions.css';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
-import Images from './Images';
+import Images from '../pages/Images';
 import React from 'react';
 
 function Gallery() {
